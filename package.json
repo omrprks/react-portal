@@ -1,28 +1,24 @@
 {
-  "name": "@omrprks/template-react-library",
-  "version": "1.0.3",
+  "name": "@omrprks/react-portal",
+  "version": "1.0.0",
   "private": false,
-  "description": "Template containing commonly used config and package dependencies for quickstarting React libraries",
-  "repository": "github:omrprks/template-react-library.git",
+  "description": "Easy to use React Portals",
+  "repository": "github:omrprks/react-portal.git",
   "author": "Omar Parkes <omr.prks@gmail.com> (https://github.com/omrprks)",
   "license": "MIT",
-  "bugs": "https://github.com/omrprks/template-react-library/issues",
-  "homepage": "https://github.com/omrprks/template-react-library#readme",
+  "bugs": "https://github.com/omrprks/react-portal/issues",
+  "homepage": "https://github.com/omrprks/react-portal#readme",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "module": "dist/template-react-library.esm.js",
+  "module": "dist/react-portal.esm.js",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "engines": {
     "node": ">=10"
   },
   "keywords": [
-    "node",
-    "react",
-    "storybook",
-    "template"
+    "react"
   ],
   "scripts": {
     "commit": "git-cz",
