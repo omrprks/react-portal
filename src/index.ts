@@ -1,2 +1,6 @@
-export * as Portal from './portal';
-export * as usePortal from './usePortal';
+import Portal from './portal';
+
+export { Portal };
+export { usePortal } from './usePortal';
+
+export default Portal;
